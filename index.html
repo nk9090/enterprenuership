@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Enterprenuership</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main">
+      <h1 id="title">Enterprenuership</h1>
+
+      <div class="main-content">
+        <div class="form-content">
+          <form id="finance-form">
+            <!-- 1 -->
+            <p>Is your Business:</p>
+
+            <input type="radio" id="Startup" name="recommend" value="Startup" />
+            <label for="Startup">Startup</label>
+			<br />
+
+            <input type="radio" id="SME" name="recommend" value="SME" />
+            <label for="SME">SME</label>
+			<br />
+            <input
+              type="radio"
+              id="Fortune Company"
+              name="recommend"
+              value="Fortune Company"
+            />
+            <label for="Fortune Company">Fortune Company</label>
+			<br />
+            <br />
+            <!-- 2 -->
+            <p>Founder: Have you done previous Startup?</p>
+            <input type="radio" id="yes" name="recommend" value="Yes" />
+			<label  for="yes">Yes</label >
+            <br />
+            <input type="radio" id="no" name="recommend" value="No" />
+			<label for="no">No</label >
+            <br />
+		    <br />
+            <!-- 3 -->
+            <label> What is your Current Revenue?</label>
+			<br /><br />
+            <input
+              id="revenue"
+              type="text"
+              required
+              placeholder="Enter your total revnue"
+            />
+            <br />
+
+            <!-- 4 -->
+            <label for="mission">What is the Mission of your Business?</label
+            ><br /><br />
+            <textarea id="mission" cols="50" rows="4" placeholder="Write your mission here... "></textarea >
+			<br />
+            <!-- 5 -->
+            <p>Is your Business Contributing to Causes?</p>
+            <input
+              type="checkbox"
+              id="UNICEF"
+              name="action"
+              value="UNICEF"
+            />
+			<label for="UNICEF">UNICEF</label>
+            <br />
+            <input
+              type="checkbox"
+              id="NoKids"
+              name="action"
+              value="NoKids"
+            />
+			<label for="NoKids">NoKids</label>
+            <br />
+            <input
+              type="checkbox"
+              id="Hungry"
+              name="action"
+              value="Hungry"
+            />
+			<label for="Hungry">Hungry</label>
+            <br />
+			<br />
+			
+            <!-- 6 -->
+
+            <label for="dropdown">Do you have Capital for</label>
+			<br />
+            <br />
+            <select id="dropdown">
+              <option value="select">Select</option>
+              <option value="0-1Years">0-1Years</option>
+              <option value="1-2Years">1-2Years</option>
+              <option value="2-3Years">2-3Years</option>
+              <option value="3+Years">3+Years</option>
+            </select>
+            <br />
+            <!-- 7 -->
+            <label for="solution"> Please write about your Solution that will make the difference in the Marketplace</label >
+            <br /><br />
+            <textarea id="solution" cols="50" rows="4" placeholder="Write your solutions here ..."></textarea>
+			<br />
+            <!-- 8 -->
+            <p>Are you Woman Founder?</p>
+            <input type="radio" id="yes" name="recommend" value="Yes" />
+			<label for="yes" >Yes</label >
+            <br />
+            <input type="radio" id="no" name="recommend" value="No" />
+			<label for="no">No</label>
+            <br />
+            <!-- 9-->
+            <p>Do you have Growth Plan for Scaling Business?</p>
+            <input type="radio" id="yes" name="recommend" value="Yes" />
+			<label for="yes">Yes</label>
+            <br />
+            <input type="radio" id="no" name="recommend" value="No" />
+			<label for="no">No</label >
+            <br />
+            <!-- 10 -->
+            <p>Do you have Expertise Customer acquisition?</p>
+            <input
+              type="radio"
+              id="SomeWhat"
+              name="recommend"
+              value="SomeWhat"
+            />
+			<label for="SomeWhat">SomeWhat</label>
+            <br />
+            <input type="radio" id="no" name="recommend" value="no" />
+			<label for="no">No</label>
+            <br />
+            <input
+              type="radio"
+              id="Experience"
+              name="recommend"
+              value="Experience"
+            />
+			<label for="Experience">Experience</label>
+            <br />
+            <input
+              type="radio"
+              id="Confident"
+              name="recommend"
+              value="Confident"
+            />
+			<label for="Confident">Confident</label>
+            <br />
+            <!-- 11 -->
+            <p>Are you committed towards your Business?</p>
+            <input
+              type="radio"
+              id="SomeWhat"
+              name="recommend"
+              value="SomeWhat"
+            />
+			<label for="SomeWhat">SomeWhat</label>
+            <br />
+            <input
+              type="radio"
+              id="Trying"
+              name="recommend"
+              value="Trying"
+            />
+			<label for="Trying">Trying</label>
+            <br />
+            <input
+              type="radio"
+              id="Fully Commited"
+              name="recommend"
+              value="Fully Commited"
+            />
+			<label for="Fully Commited">Fully Commited</label>
+            <br />
+
+            <!-- 12 -->
+            <p>Why should we Build your Software?</p>
+            <input
+              type="radio"
+              id="lack"
+              name="recommend"
+              value="Lack of technical knowledge"
+            />
+			<label for="lack">Lack of technical knowledge</label>
+            <br />
+            <input type="radio" id="want" name="recommend" value="want" />
+			<label for="want" > Want to Work with Top Software developers</label>
+            <br />
+
+            <input
+              type="radio"
+              id="expert"
+              name="recommend"
+              value="expert"
+            />
+			<label for="expert"> I am Business Domain Expert</label>
+            <br />
+            <input type="radio" id="need" name="recommend" value="need" />
+			<label for="need">Need Technology Partner</label>
+            <br />
+            <br />
+            <button id="submit" type="submit" value="submit">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
